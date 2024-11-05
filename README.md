@@ -71,7 +71,7 @@ new_property = {
 }
 predicted_price = predict_price(new_property)
 print(f"Estimated Price: {predicted_price:,.2f}")
-
+```
 
 ## 🧠 Models and Metrics
 - Linear Regression (R2 on test set: ~0.7)
