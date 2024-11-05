@@ -5,7 +5,7 @@ Immo Eliza ML is a machine learning project focused on predicting real estate pr
 
 ## 📂 Repository Structure
 
-IMMO-ELIZA-ML/
+```IMMO-ELIZA-ML/
 ├── .venv/
 ├── Cleaned/
 │   ├── final_xgb_model_advanced.joblib
@@ -20,7 +20,7 @@ IMMO-ELIZA-ML/
 │   ├── ANA_with_provinces.ipynb
 │   └── ANA_with_Region.ipynb
 ├── .gitignore
-└── README.md
+└── README.md```
 
 ## 📂 Explanation of structure 
 1. IMMO-ELIZA-ML/ - The main project folder.
@@ -42,9 +42,13 @@ IMMO-ELIZA-ML/
 
 ## 🛠️ Installation
 Clone the repository to your local machine:
-git clone https://github.com/koranaaa/immo-eliza-ml.git
 
-git clone https://github.com/koranaaa/immo-eliza-ml.git
+```bash
+
+git clone https://github.com/koranaaa/immo-eliza-ml.git```
+
+```bash
+git clone https://github.com/koranaaa/immo-eliza-ml.git```
 
 Navigate to the project directory and install the required dependencies:
 pip install -r requirements.txt
@@ -70,8 +74,8 @@ new_property = {
     "Property type": "apartment"
 }
 predicted_price = predict_price(new_property)
-print(f"Estimated Price: {predicted_price:,.2f}")
-```
+print(f"Estimated Price: {predicted_price:,.2f}")```
+
 
 ## 🧠 Models and Metrics
 - Linear Regression (R2 on test set: ~0.7)
