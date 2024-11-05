@@ -5,7 +5,8 @@ Immo Eliza ML is a machine learning project focused on predicting real estate pr
 
 ## 📂 Repository Structure
 
-```IMMO-ELIZA-ML/
+```
+IMMO-ELIZA-ML/
 ├── .venv/
 ├── Cleaned/
 │   ├── final_xgb_model_advanced.joblib
@@ -20,7 +21,8 @@ Immo Eliza ML is a machine learning project focused on predicting real estate pr
 │   ├── ANA_with_provinces.ipynb
 │   └── ANA_with_Region.ipynb
 ├── .gitignore
-└── README.md```
+└── README.md
+```
 
 ## 📂 Explanation of structure 
 1. IMMO-ELIZA-ML/ - The main project folder.
@@ -43,12 +45,16 @@ Immo Eliza ML is a machine learning project focused on predicting real estate pr
 ## 🛠️ Installation
 Clone the repository to your local machine:
 
-```bash
+```
+bash
 
-git clone https://github.com/koranaaa/immo-eliza-ml.git```
+git clone https://github.com/koranaaa/immo-eliza-ml.git
+```
 
-```bash
-git clone https://github.com/koranaaa/immo-eliza-ml.git```
+```
+bash
+git clone https://github.com/koranaaa/immo-eliza-ml.git
+```
 
 Navigate to the project directory and install the required dependencies:
 pip install -r requirements.txt
@@ -62,7 +68,8 @@ python main.py
 # Example Usage
 For predictions, use predict.py. This script loads the prepared model, processes input data, and makes a prediction:
 
-```from utils.predict import predict_price
+```
+from utils.predict import predict_price
 new_property = {
     "Number of bedrooms": 3,
     "Living area m²": 120,
@@ -74,7 +81,8 @@ new_property = {
     "Property type": "apartment"
 }
 predicted_price = predict_price(new_property)
-print(f"Estimated Price: {predicted_price:,.2f}")```
+print(f"Estimated Price: {predicted_price:,.2f}")
+```
 
 
 ## 🧠 Models and Metrics
@@ -97,3 +105,9 @@ The initial setup of this project was completed in 4 days. It involved automatin
 
 ## 📌 Personal Note
 This project was developed as part of my machine learning training at BeCode. It serves as a practical example of applying data preprocessing, feature engineering, and model training and evaluation.
+
+### 📞 Contact Information:
+In case of any questions or help, feel free to reach out:
+
+- **Lead Developer**: [Korostelova Anastasiia]
+- **Email**: nastiashosti@gmail.com
