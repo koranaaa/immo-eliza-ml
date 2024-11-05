@@ -70,7 +70,7 @@ new_property = {
     "Property type": "apartment"
 }
 predicted_price = predict_price(new_property)
-print(f"Estimated Price: {predicted_price:,.2f}")```
+print(f"Estimated Price: {predicted_price:,.2f}")
 
 
 ## 🧠 Models and Metrics
