@@ -110,4 +110,5 @@ This project was developed as part of my machine learning training at BeCode. It
 In case of any questions or help, feel free to reach out:
 
 - **Lead Developer**: [Korostelova Anastasiia]
+- **LinkedIn** [LinkedIn](https://www.linkedin.com/in/anastasiia-korostelova-136426329/).
 - **Email**: nastiashosti@gmail.com
