@@ -58,7 +58,7 @@ python main.py
 # Example Usage
 For predictions, use predict.py. This script loads the prepared model, processes input data, and makes a prediction:
 
-from utils.predict import predict_price
+```from utils.predict import predict_price
 new_property = {
     "Number of bedrooms": 3,
     "Living area m²": 120,
@@ -70,7 +70,7 @@ new_property = {
     "Property type": "apartment"
 }
 predicted_price = predict_price(new_property)
-print(f"Estimated Price: {predicted_price:,.2f}")
+print(f"Estimated Price: {predicted_price:,.2f}")```
 
 
 ## 🧠 Models and Metrics
